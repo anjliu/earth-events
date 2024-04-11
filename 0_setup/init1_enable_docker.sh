@@ -1,3 +1,4 @@
+#!/bin/bash
 '''
 This file is part of the GCP VM initiation.
 It does the following:
@@ -8,4 +9,4 @@ sudo systemctl enable docker.service
 sudo systemctl enable containerd.service
 
 docker version
-sudo docker run hello-world
+docker run hello-world

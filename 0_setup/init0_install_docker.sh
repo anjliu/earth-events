@@ -1,3 +1,4 @@
+#!/bin/bash
 '''
 This file is part of the GCP VM initiation.
 It does the following:
@@ -24,6 +25,6 @@ sudo apt-get update
 sudo apt-get install docker-ce docker-ce-cli containerd.io docker-buildx-plugin docker-compose-plugin docker-compose
 
     # add user to docker group
-sudo groupadd docker
+# sudo groupadd docker
 sudo usermod -aG docker $USER
 
